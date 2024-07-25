@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Structure</title>
+</head>
+<body>
+    <h1>I am Shreyas Keshao Denge</h1>
+
+    <!-- Use various text elements such as headings (<h1> to <h6>), paragraphs (<p>), and text formatting tags (<strong>, <em>, <u>). -->
+    <h2>This is a Heading h2</h2>
+    <p>This is a paragraph with some <strong>bold</strong> text and some <em>italic</em> text.</p>
+    <h3>This is a Heading h3</h3>
+    <p>This is another paragraph with some <u>underlined</u> text.</p>
+    
+    <!-- Add a hyperlink to another website. -->
+    <a href="bijus.com">Bijus</a>
+    <br>
+    <img src="https://play-lh.googleusercontent.com/7Ce16xDkZW-GmTSjvcfhBFQwe67Uu79Hzr-M4JAfvvq7qX_cTPsl7TcbhFZeW3MdpUGm" alt="Placeholder Image">
+
+    <!-- Create an unordered list and an ordered list. -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2
+        <ul>
+            <li>Subitem 1</li>
+            <li>Subitem 2</li>
+        </ul>
+        </li>
+        <li>Item 3</li>
+    </ul>
+      <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+      </ol>
+
+    <!-- Create a table with a header, multiple rows, and columns. -->
+    <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John Doe</td>
+            <td>30</td>
+            <td>New York</td>
+          </tr>
+          <tr>
+            <td>Jane Smith</td>
+            <td>25</td>
+            <td>Los Angeles</td>
+          </tr>
+        </tbody>
+    </table>
+    <br>
+    <!-- Create a simple form with various input types (text, email, password, radio, checkbox, submit button). -->
+    <form action="/submit" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br>
+        <label for="subscribe">Subscribe to newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <br>
+        <button type="submit">Submit</button>
+      </form>
+
+    <!-- Use semantic HTML tags such as <header>, <footer>, <section>, <article>, and <aside> to structure a webpage. -->
+      <header>
+        <h1>Website Header</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="home">
+          <h2>Home Section</h2>
+          <p>Welcome to the home section.</p>
+        </section>
+        <article>
+          <h2>Main Article</h2>
+          <p>This is the main article content.</p>
+        </article>
+        <aside>
+          <h2>Sidebar</h2>
+          <p>This is the sidebar content.</p>
+        </aside>
+      </main>
+      <footer>
+        <p>&copy; 2024 Your Company</p>
+      </footer>
+      
+</body>
+</html>
